@@ -1,0 +1,31 @@
+aside {
+    background-color: rgb(41, 106, 218);
+    outline: 3px solid rgb(37, 34, 180);
+}
+header {
+    background: linear-gradient(to right, rgb(219, 239, 255), rgb(41, 106, 218));
+    outline: 3px solid rgb(37, 34, 180);
+    font-family: monospace;
+}
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: linear-gradient(to bottom, rgb(219, 239, 255), rgb(41, 106, 218));
+    outline: 3px solid rgb(37, 34, 180);
+    font-family: monospace
+}
+.sidebar {
+    flex-basis: 16rem;
+    flex-grow: 1;
+}
+.not-sidebar {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+}
+.wrapper {
+    max-width: 56rem;
+    margin-right: auto;
+    margin-left: auto;
+}
