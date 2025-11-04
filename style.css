@@ -1,3 +1,9 @@
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1,5rem;
+}
 aside {
     background-color: rgb(41, 106, 218);
     outline: 3px solid rgb(37, 34, 180);
