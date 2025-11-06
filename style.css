@@ -7,17 +7,13 @@ h2 {
 aside {
     background-color: rgb(41, 106, 218);
     outline: 3px solid rgb(37, 34, 180);
-}
-header {
-    background: linear-gradient(to right, rgb(219, 239, 255), rgb(41, 106, 218));
-    outline: 3px solid rgb(37, 34, 180);
-    font-family: monospace;
+    color: rgb(223, 229, 255);
 }
 .with-sidebar {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    background: linear-gradient(to bottom, rgb(219, 239, 255), rgb(41, 106, 218));
+    background-color: rgb(223, 229, 255);
     outline: 3px solid rgb(37, 34, 180);
     font-family: monospace
 }
@@ -29,6 +25,7 @@ header {
     flex-basis: 0;
     flex-grow: 999;
     min-inline-size: 50%;
+    color: rgb(41, 106, 218);
 }
 .wrapper {
     max-width: 56rem;
